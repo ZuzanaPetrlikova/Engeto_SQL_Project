@@ -43,8 +43,7 @@ SELECT DISTINCT
 	LEFT JOIN avg_values AS bread1 ON pf.YEAR = bread1.YEAR AND bread1.YEAR = 2006 AND pf.food_name LIKE '%chléb%'
 	LEFT JOIN avg_values AS bread2 ON pf.YEAR = bread2.YEAR AND bread2.YEAR = 2018 AND pf.food_name LIKE '%chléb%'
 	WHERE pf.year IN (2006, 2018) AND pf.food_name LIKE '%chléb%'
-	ORDER BY year
-;
+	ORDER BY year;
 
 
 /*
@@ -52,6 +51,5 @@ SELECT DISTINCT
   
 	V roce 2006 bylo možné si za prùmìrnou mzdu koupit 1511,8 litrù mléka a 1322,8 kilogramù chleba.
 	V roce 2018 bylo možné si za prùmìrnou mzdu koupit 1654,6 litrù mléka a 1378,8 kilogramù chleba.
-
 
  */

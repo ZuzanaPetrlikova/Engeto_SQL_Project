@@ -13,7 +13,9 @@ Finální SQL project k absolvování kurzu Engeto Datová Akademie
 
 # Zadání
 
-Úkol projektu je pøipravit podklady a vypracovat odpovìdi na 5 stanovených výzkumných otázek:
+Úkol projektu je pøipravit datové podklady které slouží k porovnání dostupnosti potravin na základì prùmìrných pøíjmù za urèité èasové období.
+
+Na základì tìchto datových podkladù vypracovat odpovìdi na 5 stanovených výzkumných otázek:
 
 1) Rostou v prùbìhu let mzdy ve všech odvìtvích nebo v nìkterých klesají?
 
@@ -29,17 +31,22 @@ Finální SQL project k absolvování kurzu Engeto Datová Akademie
 
 # Hlavní tabulka
 
-Nejdøíve byla vytvoøena primární tabulka z názvem t_zuzana_petrlikova_project_sql_primary_final. Z této tabulky byli èerpány data pro odpovìdi na první ètyøi otázky.
+Nejdøíve byla vytvoøena primární tabulka z názvem t_zuzana_petrlikova_project_sql_primary_final. 
 
 Tato tabulka nám poskytuje data o cenách potravin a výši mezd v Èeské republice sjednocených na totožné porovnatelné období.
 Konkrétné obsahuje sloupce: food_category_code, food_name, year, food_value, price_unit, industry_code, industry_name, salary.
 
+Z této tabulky byla èerpána data pro odpovìdi na první ètyøi otázky.
+
+
 
 # Sekundární tabulka
 
-Následnì byla vytvoøena sekundární tabulka s názvem t_zuzana_petrlikova_project_sql_secondary_final, která obsahuje potøebné údaje k páté otázce. 
+Následnì byla vytvoøena sekundární tabulka s názvem t_zuzana_petrlikova_project_sql_secondary_final.
 
 Tato tabulka nám nabízí ekonomická data o evropských státech. Konkrétnì obsahuje sloupce: country, year, GDP, taxes, gini.
+
+Tato tabulka obsahuje datové údaje, které jsou klíèové pro pátou otázku.
 
 
 

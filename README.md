@@ -1,3 +1,5 @@
+Discord: zu_zana
+
 # Engeto_SQL_Project
 Finální SQL project k absolvování kurzu Engeto Datová Akademie
 

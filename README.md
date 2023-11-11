@@ -49,7 +49,7 @@ Tato tabulka nám nabízí ekonomická data o evropských státech. Konkrétně 
 Tato tabulka obsahuje datové údaje, které jsou klíčové pro pátou otázku.
 
 
-
+# Odpovědi na otázky
 ## 1. Otázka -  Rostou v průběhu let mzdy ve všech odvětvích nebo v některých klesají?
 
 Ve všech sledovaných odvětvích je mezi lety 2006 a 2018 zaznamenán nárůst mezd.

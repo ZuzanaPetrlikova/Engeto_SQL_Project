@@ -1,7 +1,7 @@
 /*
   1. Otázka
 
-	 Rostou v prubehu let mzdy ve vsech odvetvich, nebo v nekterych klesaji?
+	 Rostou v prùbìhu let mzdy ve všech odvìtvích, nebo v nìkterých klesaji?
 
  */
 
@@ -19,9 +19,9 @@ WHERE year IN (2006, 2018)
 GROUP BY industry_name;
 
 /*
-  Odpoved
+  Odpovìï
   
-	Ve všech sledovaných odvetvích je mezi lety 2006 a 2018 zaznamenán nárust mezd.
+	Ve všech sledovaných odvìtvích je mezi lety 2006 a 2018 zaznamenán nárust mezd.
   
  */
 

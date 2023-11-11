@@ -20,7 +20,7 @@ ORDER BY percentage_food_value_growth ASC;
 /*
   Odpovìï
   
-	Nejnižší procentuální nárùst byl zaznamenán v roce 2007 potraviny: Rajská jablka èervená kulatá. 
+	Nejnižší procentuální nárùst byl zaznamenán v roce 2007 u potraviny: Rajská jablka èervená kulatá. 
   	Cena poklesla o 31.03%.
 
  */

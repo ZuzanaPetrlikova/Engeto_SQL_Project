@@ -4,26 +4,26 @@ Finální SQL project k absolvování kurzu Engeto Datová Akademie
 
 # Struktura projektu
 
-dokumentace
+-dokumentace
 
-soubory s jednotlivými otázkami(1.Question.sql,2.Question.sql, 3.Question.sql, 4.Question.sql, 5.Question.sgl)
+-soubory s jednotlivými otázkami(1.Question.sql,2.Question.sql, 3.Question.sql, 4.Question.sql, 5.Question.sgl)
 
-soubory s tabulkami t_zuzana_petrlikova_project_sql_primary_final.sql, t_zuzana_petrlikova_project_sql_secondary_final.sql)
+-soubory s tabulkami t_zuzana_petrlikova_project_sql_primary_final.sql, t_zuzana_petrlikova_project_sql_secondary_final.sql)
 
 
 # Zadání
 
 Úkol projektu je pøipravit podklady a vypracovat odpovìdi na 5 stanovených výzkumných otázek:
 
-Rostou v prùbìhu let mzdy ve všech odvìtvích nebo v nìkterých klesají?
+1)Rostou v prùbìhu let mzdy ve všech odvìtvích nebo v nìkterých klesají?
 
-Kolik je možné si koupit litrù mléka a kilogramù chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?
+2)Kolik je možné si koupit litrù mléka a kilogramù chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?
 
-Která kategorie potravin zdražuje nejpomaleji - je u ní nejnižší percentuální meziroèní nárùst?
+3)Která kategorie potravin zdražuje nejpomaleji - je u ní nejnižší percentuální meziroèní nárùst?
 
-Existuje rok, ve kterém byl meziroèní nárùst cen potravin výraznì vyšší než nárùst mezd (vìtší než 10 %)?
+4)Existuje rok, ve kterém byl meziroèní nárùst cen potravin výraznì vyšší než nárùst mezd (vìtší než 10 %)?
 
-Má výška HDP vliv na zmìny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výraznìji v jednom roce, projeví se to na cenách potravin èi mzdách ve stejném nebo následujícím roce výraznìjším rùstem?
+5)Má výška HDP vliv na zmìny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výraznìji v jednom roce, projeví se to na cenách potravin èi mzdách ve stejném nebo následujícím roce výraznìjším rùstem?
 
 
 

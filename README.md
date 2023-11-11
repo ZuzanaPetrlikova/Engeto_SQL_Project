@@ -1,80 +1,80 @@
 # Engeto_SQL_Project
-Finální SQL project k absolvování kurzu Engeto Datová Akademie
+FinÃ¡lnÃ­ SQL project k absolvovÃ¡nÃ­ kurzu Engeto DatovÃ¡ Akademie
 
 
 # Struktura projektu
 
 - dokumentace
 
-- soubory s jednotlivımi otázkami(1.Question.sql,2.Question.sql, 3.Question.sql, 4.Question.sql, 5.Question.sgl)
+- soubory s jednotlivÃ½mi otÃ¡zkami (1.Question.sql,2.Question.sql, 3.Question.sql, 4.Question.sql, 5.Question.sgl)
 
-- soubory s tabulkami t_zuzana_petrlikova_project_sql_primary_final.sql, t_zuzana_petrlikova_project_sql_secondary_final.sql)
+- soubory s tabulkami (t_zuzana_petrlikova_project_sql_primary_final.sql, t_zuzana_petrlikova_project_sql_secondary_final.sql)
 
 
-# Zadání
+# ZadÃ¡nÃ­
 
-Úkol projektu je pøipravit datové podklady které slouí k porovnání dostupnosti potravin na základì prùmìrnıch pøíjmù za urèité èasové období.
+Ãškolem projektu je pÅ™ipravit datovÃ© podklady, kterÃ© slouÅ¾Ã­ k porovnÃ¡nÃ­ dostupnosti potravin na zÃ¡kladÄ› prÅ¯mÄ›rnÃ½ch pÅ™Ã­jmÅ¯ za urÄitÃ© ÄasovÃ© obdobÃ­.
 
-Na základì tìchto datovıch podkladù vypracovat odpovìdi na 5 stanovenıch vızkumnıch otázek:
+Na zÃ¡kladÄ› tÄ›chto datovÃ½ch podkladÅ¯ vypracovat odpovÄ›di na 5 stanovenÃ½ch vÃ½zkumnÃ½ch otÃ¡zek:
 
-1) Rostou v prùbìhu let mzdy ve všech odvìtvích nebo v nìkterıch klesají?
+1) Rostou v prÅ¯bÄ›hu let mzdy ve vÅ¡ech odvÄ›tvÃ­ch nebo v nÄ›kterÃ½ch klesajÃ­?
 
-2) Kolik je moné si koupit litrù mléka a kilogramù chleba za první a poslední srovnatelné období v dostupnıch datech cen a mezd?
+2) Kolik je moÅ¾nÃ© si koupit litrÅ¯ mlÃ©ka a kilogramÅ¯ chleba za prvnÃ­ a poslednÃ­ srovnatelnÃ© obdobÃ­ v dostupnÃ½ch datech cen a mezd?
 
-3) Která kategorie potravin zdrauje nejpomaleji - je u ní nejniší percentuální meziroèní nárùst?
+3) KterÃ¡ kategorie potravin zdraÅ¾uje nejpomaleji - je u nÃ­ nejniÅ¾Å¡Ã­ percentuÃ¡lnÃ­ meziroÄnÃ­ nÃ¡rÅ¯st?
  
-4) Existuje rok, ve kterém byl meziroèní nárùst cen potravin vıraznì vyšší ne nárùst mezd (vìtší ne 10 %)?
+4) Existuje rok, ve kterÃ©m byl meziroÄnÃ­ nÃ¡rÅ¯st cen potravin vÃ½raznÄ› vyÅ¡Å¡Ã­ neÅ¾ nÃ¡rÅ¯st mezd (vÄ›tÅ¡Ã­ neÅ¾ 10 %)?
 
-5) Má vıška HDP vliv na zmìny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste vıraznìji v jednom roce, projeví se to na cenách potravin èi mzdách ve stejném nebo následujícím roce vıraznìjším rùstem?
-
-
-
-# Hlavní tabulka
-
-Nejdøíve byla vytvoøena primární tabulka z názvem t_zuzana_petrlikova_project_sql_primary_final. 
-
-Tato tabulka nám poskytuje data o cenách potravin a vıši mezd v Èeské republice sjednocenıch na totoné porovnatelné období.
-Konkrétné obsahuje sloupce: food_category_code, food_name, year, food_value, price_unit, industry_code, industry_name, salary.
-
-Z této tabulky byla èerpána data pro odpovìdi na první ètyøi otázky.
+5) MÃ¡ vÃ½Å¡ka HDP vliv na zmÄ›ny ve mzdÃ¡ch a cenÃ¡ch potravin? Neboli, pokud HDP vzroste vÃ½raznÄ›ji v jednom roce, projevÃ­ se to na cenÃ¡ch potravin Äi mzdÃ¡ch ve stejnÃ©m nebo nÃ¡sledujÃ­cÃ­m roce vÃ½raznÄ›jÅ¡Ã­m rÅ¯stem?
 
 
 
-# Sekundární tabulka
+# HlavnÃ­ tabulka
 
-Následnì byla vytvoøena sekundární tabulka s názvem t_zuzana_petrlikova_project_sql_secondary_final.
+NejdÅ™Ã­ve byla vytvoÅ™ena primÃ¡rnÃ­ tabulka z nÃ¡zvem t_zuzana_petrlikova_project_sql_primary_final. 
 
-Tato tabulka nám nabízí ekonomická data o evropskıch státech. Konkrétnì obsahuje sloupce: country, year, GDP, taxes, gini.
+Tato tabulka nÃ¡m poskytuje data o cenÃ¡ch potravin a vÃ½Å¡i mezd v ÄŒeskÃ© republice sjednocenÃ½ch na totoÅ¾nÃ© porovnatelnÃ© obdobÃ­.
+KonkrÃ©tnÃ© obsahuje sloupce: food_category_code, food_name, year, food_value, price_unit, industry_code, industry_name, salary.
 
-Tato tabulka obsahuje datové údaje, které jsou klíèové pro pátou otázku.
+Data pro odpovÄ›di na prvnÃ­ ÄtyÅ™i otÃ¡zky byla ÄerpÃ¡na z tÃ©to tabulky.
 
 
 
-## 1. Otázka -  Rostou v prùbìhu let mzdy ve všech odvìtvích nebo v nìkterıch klesají?
+# SekundÃ¡rnÃ­ tabulka
 
-Ve všech sledovanıch odvìtvích je mezi lety 2006 a 2018 zaznamenán nárùst mezd.
+NÃ¡slednÄ› byla vytvoÅ™ena sekundÃ¡rnÃ­ tabulka s nÃ¡zvem t_zuzana_petrlikova_project_sql_secondary_final.
+
+Tato tabulka nÃ¡m nabÃ­zÃ­ ekonomickÃ¡ data o evropskÃ½ch stÃ¡tech. KonkrÃ©tnÄ› obsahuje sloupce: country, year, GDP, taxes, gini.
+
+Tato tabulka obsahuje datovÃ© Ãºdaje, kterÃ© jsou klÃ­ÄovÃ© pro pÃ¡tou otÃ¡zku.
+
+
+# OdpovÄ›di na otÃ¡zky
+## 1. OtÃ¡zka -  Rostou v prÅ¯bÄ›hu let mzdy ve vÅ¡ech odvÄ›tvÃ­ch nebo v nÄ›kterÃ½ch klesajÃ­?
+
+Ve vÅ¡ech sledovanÃ½ch odvÄ›tvÃ­ch je mezi lety 2006 a 2018 zaznamenÃ¡n nÃ¡rÅ¯st mezd.
  
 
-## 2. Otázka - Kolik je moné si koupit litrù mléka a kilogramù chleba za první a poslední srovnatelné období v dostupnıch datech cen a mezd?
+## 2. OtÃ¡zka - Kolik je moÅ¾nÃ© si koupit litrÅ¯ mlÃ©ka a kilogramÅ¯ chleba za prvnÃ­ a poslednÃ­ srovnatelnÃ© obdobÃ­ v dostupnÃ½ch datech cen a mezd?
 
-V roce 2006 bylo moné si za prùmìrnou mzdu koupit 1511,8 litrù mléka a 1322,8 kilogramù chleba.
-V roce 2018 bylo moné si za prùmìrnou mzdu koupit 1654,6 litrù mléka a 1378,8 kilogramù chleba.
+V roce 2006 bylo moÅ¾nÃ© si za prÅ¯mÄ›rnou mzdu koupit 1511,8 litrÅ¯ mlÃ©ka a 1322,8 kilogramÅ¯ chleba.
+V roce 2018 bylo moÅ¾nÃ© si za prÅ¯mÄ›rnou mzdu koupit 1654,6 litrÅ¯ mlÃ©ka a 1378,8 kilogramÅ¯ chleba.
 
 
-## 3. Otázka - Která kategorie potravin zdrauje nejpomaleji - je u ní nejniší percentuální meziroèní nárùst?
+## 3. OtÃ¡zka - KterÃ¡ kategorie potravin zdraÅ¾uje nejpomaleji - je u nÃ­ nejniÅ¾Å¡Ã­ percentuÃ¡lnÃ­ meziroÄnÃ­ nÃ¡rÅ¯st?
 
-Nejniší procentuální nárùst byl zaznamenán v roce 2007 potraviny: Rajská jablka èervená kulatá. 
+NejniÅ¾Å¡Ã­ procentuÃ¡lnÃ­ nÃ¡rÅ¯st byl zaznamenÃ¡n v roce 2007 potraviny: RajskÃ¡ jablka ÄervenÃ¡ kulatÃ¡. 
 Cena poklesla o 31.03%.
 
 
-## 4. Otázka - Existuje rok, ve kterém byl meziroèní nárùst cen potravin vıraznì vyšší ne nárùst mezd (vìtší ne 10 %)?
+## 4. OtÃ¡zka - Existuje rok, ve kterÃ©m byl meziroÄnÃ­ nÃ¡rÅ¯st cen potravin vÃ½raznÄ› vyÅ¡Å¡Ã­ neÅ¾ nÃ¡rÅ¯st mezd (vÄ›tÅ¡Ã­ neÅ¾ 10 %)?
 
-V ádném roce není mezironèí percentuální nárùst cen potravin vyšší o více ne 10 % oproti nárùstu mezd. 
-Nejvyšší rozdíl je moné pozorovat v roce 2013 a to o 6,51 %.
+V Å¾Ã¡dnÃ©m roce nenÃ­ mezironÄÃ­ percentuÃ¡lnÃ­ nÃ¡rÅ¯st cen potravin vyÅ¡Å¡Ã­ o vÃ­ce neÅ¾ 10 % oproti nÃ¡rÅ¯stu mezd. 
+NejvyÅ¡Å¡Ã­ rozdÃ­l je moÅ¾nÃ© pozorovat v roce 2013 a to o 6,51 %.
 
 
-## 5. Otázka - Má vıška HDP vliv na zmìny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste vıraznìji v jednom roce, projeví se to na cenách potravin èi mzdách ve stejném nebo následujícím roce vıraznìjším rùstem?
+## 5. OtÃ¡zka - MÃ¡ vÃ½Å¡ka HDP vliv na zmÄ›ny ve mzdÃ¡ch a cenÃ¡ch potravin? Neboli, pokud HDP vzroste vÃ½raznÄ›ji v jednom roce, projevÃ­ se to na cenÃ¡ch potravin Äi mzdÃ¡ch ve stejnÃ©m nebo nÃ¡sledujÃ­cÃ­m roce vÃ½raznÄ›jÅ¡Ã­m rÅ¯stem?
 
-Vıška HDP nevykazuje pøímy a jednoznaènı vliv na zmìny ve mzdách a cenách potravin.
+VÃ½Å¡ka HDP nevykazuje pÅ™Ã­mÃ½ a jednoznaÄnÃ½ vliv na zmÄ›ny ve mzdÃ¡ch a cenÃ¡ch potravin.
 
 

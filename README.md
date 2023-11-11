@@ -5,13 +5,26 @@ Finální SQL project k absolvování kurzu Engeto Datová Akademie
 # Struktura projektu
 
 dokumentace
-soubory s jednotlivými otázkami(1.Question.sql, 2.Question.sql, 3.Question.sql, 4.Question.sql, 5.Question.sgl)
-soubory s tabulkami (t_zuzana_petrlikova_project_sql_primary_final.sql, t_zuzana_petrlikova_project_sql_secondary_final.sql)
+
+soubory s jednotlivými otázkami(1.Question.sql,2.Question.sql, 3.Question.sql, 4.Question.sql, 5.Question.sgl)
+
+soubory s tabulkami t_zuzana_petrlikova_project_sql_primary_final.sql, t_zuzana_petrlikova_project_sql_secondary_final.sql)
 
 
 # Zadání
 
-Úkol projektu je pøipravit podklady a vypracovat odpovìdi na 5 stanovených výzkumných otázek. 
+Úkol projektu je pøipravit podklady a vypracovat odpovìdi na 5 stanovených výzkumných otázek:
+
+Rostou v prùbìhu let mzdy ve všech odvìtvích nebo v nìkterých klesají?
+
+Kolik je možné si koupit litrù mléka a kilogramù chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?
+
+Která kategorie potravin zdražuje nejpomaleji - je u ní nejnižší percentuální meziroèní nárùst?
+
+Existuje rok, ve kterém byl meziroèní nárùst cen potravin výraznì vyšší než nárùst mezd (vìtší než 10 %)?
+
+Má výška HDP vliv na zmìny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výraznìji v jednom roce, projeví se to na cenách potravin èi mzdách ve stejném nebo následujícím roce výraznìjším rùstem?
+
 
 
 # Hlavní tabulka
@@ -27,19 +40,6 @@ Konkrétné obsahuje sloupce: food_category_code, food_name, year, food_value, pri
 Následnì byla vytvoøena sekundární tabulka s názvem t_zuzana_petrlikova_project_sql_secondary_final, která obsahuje potøebné údaje k páté otázce. 
 
 Tato tabulka nám nabízí ekonomická data o evropských státech. Konkrétnì obsahuje sloupce: country, year, GDP, taxes, gini.
-
-
-# Výzkumné otázky
-
-Bylo stanoveno 5 výzkumných otázek, na které tento projekt nabízí odpovìdí:
-
-
-Rostou v prùbìhu let mzdy ve všech odvìtvích nebo v nìkterých klesají?
-Kolik je možné si koupit litrù mléka a kilogramù chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?
-Která kategorie potravin zdražuje nejpomaleji - je u ní nejnižší percentuální meziroèní nárùst?
-Existuje rok, ve kterém byl meziroèní nárùst cen potravin výraznì vyšší než nárùst mezd (vìtší než 10 %)?
-Má výška HDP vliv na zmìny ve mzdách a cenách potravin? Neboli, pokud HDP vzroste výraznìji v jednom roce, projeví se to na cenách potravin èi mzdách ve stejném nebo následujícím roce výraznìjším rùstem?
-
 
 
 

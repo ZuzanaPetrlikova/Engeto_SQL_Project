@@ -50,4 +50,5 @@ ORDER BY subquery1.year;
   Odpovìï
 
 Výška HDP nevykazuje pøímý a jednoznaèný vliv na zmìny ve mzdách a cenách potravin
+
  */

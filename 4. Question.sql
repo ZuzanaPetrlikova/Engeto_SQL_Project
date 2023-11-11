@@ -10,7 +10,7 @@ SELECT DISTINCT
     subquery.year,
     ROUND((subquery.avg_food_value - subquery2.avg_food_value) / subquery2.avg_food_value * 100, 2) AS per_value__growth,
     ROUND((subquery.avg_salary - subquery2.avg_salary) / subquery2.avg_salary * 100, 2) AS per_salary__growth,
-    ROUND(((subquery.avg_food_value - subquery2.avg_food_value) / subquery2.avg_food_value * 100) - ((subquery.avg_salary- subquery2.avg_salary) / subquery2.avg_salary * 100), 2) AS difference
+    ROUND(((subquery.avg_food_value - subquery2.avg_food_value) / subquery2.avg_food_value * 100) - ((subquery.avg_salary- subquery2.avg_salary) / subquery2.avg_salary * 100), 2) AS difference_percentage
 FROM (
     	SELECT 
 	        year,
@@ -28,7 +28,7 @@ JOIN (
 		GROUP BY year
 	 ) AS subquery2
 ON subquery.year = subquery2.year + 1
-ORDER BY difference DESC;
+ORDER BY difference_percentage DESC;
 
 
 /*

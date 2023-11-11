@@ -1,5 +1,6 @@
 # Engeto_SQL_Project
-Finální SQL project k absolvování Engeto Data Akademie
+Finální SQL project k absolvování kurzu Engeto Datová Akademie
+
 
 # Struktura projektu
 

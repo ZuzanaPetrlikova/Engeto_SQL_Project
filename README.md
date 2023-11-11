@@ -46,7 +46,7 @@ Data pro odpovědi na první čtyři otázky byla čerpána z této tabulky.
 
 Následně byla vytvořena sekundární tabulka s názvem t_zuzana_petrlikova_project_sql_secondary_final.
 
-Tato tabulka nám nabízí ekonomická data o evropských státech. Konkrétně obsahuje sloupce: country, year, GDP, taxes, gini.
+Tato tabulka nám nabízí ekonomická data o evropských státech. Konkrétně obsahuje sloupce: country, year, GDP, taxes, gini, population.
 
 Tato tabulka obsahuje datové údaje, které jsou klíčové pro pátou otázku.
 

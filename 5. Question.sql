@@ -30,13 +30,13 @@ JOIN
             ROUND(avg_salary / LAG(avg_salary) OVER (ORDER BY year) * 100 - 100, 2) AS salary_percentage_difference,
             ROUND(avg_food / LAG(avg_food) OVER (ORDER BY year) * 100 - 100, 2) AS food_percentage_difference
         FROM (
-            SELECT
-                year,
-                AVG(salary) AS avg_salary,
-                AVG(food_value) AS avg_food
-            FROM t_zuzana_petrlikova_project_sql_primary_final AS pf
-            GROUP BY year
-        ) AS dif
+	            SELECT
+	                year,
+	                AVG(salary) AS avg_salary,
+	                AVG(food_value) AS avg_food
+	            FROM t_zuzana_petrlikova_project_sql_primary_final AS pf
+	            GROUP BY year
+        	) AS dif
     ) AS subquery2
 ON subquery1.year = subquery2.year
 WHERE subquery1.year BETWEEN 2006 AND 2018 AND subquery1.country = 'Czech Republic'

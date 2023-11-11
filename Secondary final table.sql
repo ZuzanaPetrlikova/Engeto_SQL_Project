@@ -4,7 +4,8 @@
 		e.year,
 		e.GDP,
 		e.taxes,
-		e.gini
+		e.gini,
+		e.population
 	FROM countries AS c
 	JOIN economies AS e
 		ON c.country = e.country

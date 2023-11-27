@@ -54,7 +54,8 @@ Tato tabulka obsahuje datové údaje, které jsou klíčové pro pátou otázku.
 # Odpovědi na otázky
 ## 1. Otázka -  Rostou v průběhu let mzdy ve všech odvětvích nebo v některých klesají?
 
-Ve všech sledovaných odvětvích je mezi lety 2006 a 2018 zaznamenán nárůst mezd.
+Ve všech sledovaných odvětví v průběhu let nedochází pouze k nárůstu mezd, ale je také možné pozorovat jejich pokles. 
+Největší pokles je v roce 2013 v odvětví Peněžnictví a pojišťovnictví, a to o 8.83%.
  
 
 ## 2. Otázka - Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?
@@ -65,10 +66,10 @@ V roce 2018 bylo možné si za průměrnou mzdu koupit 1654,6 litrů mléka a 13
 
 ## 3. Otázka - Která kategorie potravin zdražuje nejpomaleji - je u ní nejnižší percentuální meziroční nárůst?
 
-Nejnižší procentuální nárůst byl zaznamenán v roce 2007 potraviny: Rajská jablka červená kulatá. 
-Cena poklesla o 31.03%.
+Mezi lety 2006 a 2018 nejpomaleji zdražuje cukr krystalový(212,101), u nìhož došlo ke snížení ceny o 27.27%.
 
-
+V jednotlivých letech nejnižší percentuální nárůst byl zaznamenán v roce 2007 potraviny: Rajská jablka červená kulatá. Cena poklesla o 31.03%.
+	
 ## 4. Otázka - Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než nárůst mezd (větší než 10 %)?
 
 V žádném roce není mezirončí percentuální nárůst cen potravin vyšší o více než 10 % oproti nárůstu mezd. 

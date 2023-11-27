@@ -5,25 +5,29 @@
 
  */
 
-SELECT 
-		industry_name,
-		SUM(CASE WHEN year = 2006 THEN salary ELSE 0 END) AS salary_2006,
-		SUM(CASE WHEN year = 2018 THEN salary ELSE 0 END) AS salary_2018,
-	CASE
-	    WHEN SUM(CASE WHEN year = 2018 THEN salary ELSE 0 END) > SUM(CASE WHEN year = 2006 THEN salary ELSE 0 END) THEN 'Growth'
-	    WHEN SUM(CASE WHEN year = 2018 THEN salary ELSE 0 END) < SUM(CASE WHEN year = 2006 THEN salary ELSE 0 END) THEN 'Decline'
-    	ELSE 'Same'
- 	END AS 'change'
-FROM t_zuzana_petrlikova_project_sql_primary_final
-WHERE year IN (2006, 2018)
-GROUP BY industry_name;
-
+WITH CTE AS (
+			SELECT 
+					industry_name,
+					year,
+					ROUND(AVG(salary), 0) AS avg_salary,  
+				    ROUND(AVG(salary) / LAG(ROUND(AVG(salary), 0)) OVER (PARTITION BY industry_name ORDER BY industry_name, year) * 100 - 100, 2) AS salary_change
+			FROM t_zuzana_petrlikova_project_sql_primary_final
+			WHERE year BETWEEN 2006 AND 2018
+			GROUP BY industry_name, YEAR
+			)
+Select	
+	industry_name,
+    year,
+    avg_salary,
+    salary_change
+FROM CTE
+WHERE salary_change IS NOT NULL
+ORDER BY salary_change, year;   
+ 
 /*
   Odpovìï
   
-	Ve všech sledovaných odvìtvích je mezi lety 2006 a 2018 zaznamenán nárust mezd.
-  
+  	 Ve všech sledovaných odvìtví v prùbìhu let nedochází pouze k nárùstu mezd, ale je také možné pozorovat jejich pokles. 
+  	 Nejvìtší pokles je v roce 2013 v odvìtví Penìžnictví a pojišovnictví, a to o 8.83%.
+
  */
-
-
-

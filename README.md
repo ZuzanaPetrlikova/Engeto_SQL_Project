@@ -66,10 +66,10 @@ V roce 2018 bylo možné si za průměrnou mzdu koupit 1654,6 litrů mléka a 13
 
 ## 3. Otázka - Která kategorie potravin zdražuje nejpomaleji - je u ní nejnižší percentuální meziroční nárůst?
 
-Nejnižší procentuální nárůst byl zaznamenán v roce 2007 potraviny: Rajská jablka červená kulatá. 
-Cena poklesla o 31.03%.
+Mezi lety 2006 a 2018 nejpomaleji zdražuje cukr krystalový(212,101), u nìhož došlo ke snížení ceny o 27.27%.
 
-
+V jednotlivých letech nejnižší percentuální nárůst byl zaznamenán v roce 2007 potraviny: Rajská jablka červená kulatá. Cena poklesla o 31.03%.
+	
 ## 4. Otázka - Existuje rok, ve kterém byl meziroční nárůst cen potravin výrazně vyšší než nárůst mezd (větší než 10 %)?
 
 V žádném roce není mezirončí percentuální nárůst cen potravin vyšší o více než 10 % oproti nárůstu mezd. 

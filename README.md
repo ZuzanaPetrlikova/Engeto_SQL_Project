@@ -54,7 +54,8 @@ Tato tabulka obsahuje datové údaje, které jsou klíčové pro pátou otázku.
 # Odpovědi na otázky
 ## 1. Otázka -  Rostou v průběhu let mzdy ve všech odvětvích nebo v některých klesají?
 
-Ve všech sledovaných odvětvích je mezi lety 2006 a 2018 zaznamenán nárůst mezd.
+Ve všech sledovaných odvětví v průběhu let nedochází pouze k nárůstu mezd, ale je také možné pozorovat jejich pokles. 
+Největší pokles je v roce 2013 v odvětví Peněžnictví a pojišťovnictví, a to o 8.83%.
  
 
 ## 2. Otázka - Kolik je možné si koupit litrů mléka a kilogramů chleba za první a poslední srovnatelné období v dostupných datech cen a mezd?
